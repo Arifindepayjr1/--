@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title> Add Flash To your page </title>
+        <script type = "text/javascript"
+                src  = "https://ajax.googlepis.com/ajax/libs/swfobject/2.2/swobject.js"></script>
+        <script type = "text/javascript"></script>
+            var flashvars  = {};
+            var parems     = {movie: "VIDEO/GNX.flv"};
+        <script>
+            swfobject.embedSWF("flash/osplayer.swf" , "snow" , "400" , "350" , "8.0.0",flashvars ,parems);
+        </script>
+    </head>
+    <body>
+         <div id = "snow"> The puppy running in the snow </div> 
+    </body>
+</html>
