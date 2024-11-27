@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title> CSS Selector </title>
+        <style>
+            *
+            {
+                background-color: antiquewhite;
+            }
+            h1 
+            {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .extra
+            {
+                color: brown;
+            }
+            p.extra
+            {
+                color:violet;
+            }
+            #information
+            {
+                font-family: monospace;
+            }
+            li > a 
+            {
+                font-family: cursive;
+                background-color: aqua;
+            }
+            p a 
+            {
+                font-family: fantasy;
+                background-color: blueviolet;
+            }
+            h1 + p 
+            {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-color: red;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 id = "top"> Kitchen Garden Calendar </h1>
+        <p id="information"> Here you can read<em> hi </em> our handing guide about what to do when. </p>
+        <h2 class = "extra"> Sprint </h2>
+        <ul>
+            <li><a href = "index.html"> Spring mulch vegetable beds <p> hi </p></a></li>
+            <li><a href = "index.html"> Plant out early potatoes </a></li>
+            <li><a href = "index.html"> Sow tomato seeds </a></li>
+            <li><a href = "index.html"> Sow zucchini seeds </a></li>
+            <li><a href = "index.html"> Deadhead rhubard flowers </a></li>
+        </ul>
+        <p class = "extra"> This page was written by <a href = "mailto: arifindepayjr@gmail.com"> 
+            ivy@exmample.org
+        </a> for <a href = "index.html"> Example. </a></p>
+        <a href = "#top"> Top of page </a>
+        <ul>
+            <li><a href  = "index.html"> 1 </a></li>
+            <p> <a href  = "index.html"> 2  <em> hi </em> <p> yoo </p></a><p> hi</p></p>
+        </ul>
+    </body>
+</html>
