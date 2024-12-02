@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML1.0 Strict"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title> Add Flash music in the page </title>
+        <script>
+            type = "text/javascript"
+            src  = "https://ajax.googleapis.com/ajax/libs/swobject/2.2/swfobject.js"
+        </script>
+        <script>
+            var flashvars = {};
+            var parems = {mp3: "Audio/GNX.mp3"};
+            swfobject.embedSWF("flash/GNX.swf" , "music-player" , "200" , "100" ,
+            "8.0.0" , flashvars , parems );
+        </script>
+    </head>
+    <body>
+        <div id = "music-player">
+            You Cannot hear this track becuase 
+            this browser does not support our Flash
+            music player.
+        </div>
+    </body>
+</html>
