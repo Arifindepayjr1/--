@@ -1,0 +1,85 @@
+<html>
+    <head><title> Example Forms </title></head>
+    <body>
+
+        <form action = "https://www.example.com/login"
+              method = "post">
+
+            <fieldset>
+                <legend>Yous Details: </legend>
+                <label>Name:   <input type       = "text"
+                                     required    = "required"
+                                     name        = "Name"
+                                     maxlength   = "1000"
+                                     size        = "30" /></label>
+                <br />
+                <label>Email:  <input  type      = "email"
+                                      required   = "required"
+                                      name       = "Email"   
+                                      maxlength  = "1000"
+                                      size       = "30" /></label>
+            </fieldset>
+        </form>
+
+        <br />
+
+        <form action = "https://www.example.com/form.php"
+              method = "post">
+        
+            <fieldset>
+                <legend>Your Review: </legend>
+
+                <br />
+
+                <label for = "aboutus"> How did you hear about us? </label>
+                <select name = "aboutus"
+                        id   = "aboutus">
+
+                    <option value = "google" selected = "selected"> Google </option>
+                    <option value = "friend"> Friend </option>
+                    <option value = "advert"> Advert </option>
+                    <option value = "other"> Other </option>
+                    
+                </select>
+
+                <br />
+
+                <p> Would you visit again? </p>
+                <input type     = "radio"
+                       name     = "option"
+                       value    = "yes"
+                       id       = "yes" /><label for = "yes"> Yes </label>
+
+                <input type     = "radio"
+                       name     = "option"
+                       value    = "no"
+                       id       = "no"/><label for = "no"> No </label>
+                
+                <input type     = "radio"
+                       name     = "option"
+                       value    = "maybe"
+                       id       = "maybe"/><label for = "maybe"> Maybe </label>
+                <br />
+
+                <p> Comments: </p>
+                <textarea name = "comment"
+                          cols = "50"
+                          rows = "10"></textarea>
+                
+                <br />
+
+                <input type  = "checkbox"
+                       name  = "signup"
+                       value = "signup"
+                       id    = "signup"/><label for = "signup"> Sign me up for email updates </label>  
+                
+                <br />
+                
+                <label><input type  = "submit"
+                              name  = "submit button"
+                              value = "Submit review"/></label>
+            
+            </fieldset>
+        </form>        
+    </body>
+</html>
