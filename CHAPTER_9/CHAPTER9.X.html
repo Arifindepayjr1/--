@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XTHML 1.0 Strict"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Example Flash video and Audio </title>
+        <script type = "text/javascript"
+                src  = "https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.jx"></script>
+        <script type = "text/javascript">
+              var flashvars = {};
+              var parems = {movie: "VIDEO/GNX.flv"};
+              swfobject.embSWF("flash/osplayer.swf", "GNXvideo" , "500" , "500" , "8.0.0", flashvars , parems);
+        </script>
+        <script type = "text/javascript"
+                src  = "https://ajaxgoogleapis.com/ajax/libs/swfobject/2.2/swfobject.jx"></script>
+        <script type = "text/javascript">
+                var flashvars = {};
+                var parems = {mp3: "Audio/GNX.mp3"};
+                swfobject.embedSWF("flash/GNX.swf" , "GNXaudio" , "8.0.0" , flashvars , parems);
+        </script>
+    </head>
+    <body>
+        <div id = "GNXvideo">
+            <video controls = "controls"
+                   autoplay = "autoplay"
+                   loop = "loop"
+                   width = "500"
+                   height = "500"
+                   preload = "auto"
+                   poster = "Video/POSTER/kendrick-lamar-gnx.jpg">
+            <source src = "VIDEO/GNX.mp4"
+                    type = 'video/mp4; codecs = "avc1.42E01E , mp4a.40.2"'/>
+            <source src = "VIDEO/GNX.webm"
+                    type = 'video/webm; codecs = "vp8 , vorbis"'/>     
+            <p> Both Flash video and HTML5 Cant play Video </p>   
+        </div>
+
+        <div id = "GNXaudio">
+            <audio controls = "controls"
+                   autoplay = "autoplay"
+                   loop = "loop"
+                   preload = "auto">
+            <source src = "Audio/GNX.mp3">
+            <source src = "Audio/GNX.ogg">
+            <p> Both Flash audio and HTML5 Cant play Audio </p>
+            </audio>          
+        </div>
+    </body>
+    
+</html>
