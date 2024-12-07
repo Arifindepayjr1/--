@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title> Vertical Align </title>
+        <style type = "text/css">
+            @font-face 
+            {
+                font-family: "customfont";
+                src: url("fonts/Thesignature.ttf") format("truetype");
+            }
+            @font-face 
+            {
+                font-family: "Press2Start";
+                src: url("fonts/PressStart2P-Regular.ttf") format("truetype");
+            }
+            body 
+            {
+                color:whitesmoke;
+                background:gray;
+                font-size: 50px;
+                font-family: "customfont" , sans-serif;
+            }
+            h1 
+            {
+                font-family: "Press2Start" , sans-serif;
+                text-transform: uppercase;
+                text-decoration:none;
+                letter-spacing: 0.5em;
+                line-height: 1.5em; 
+                font-weight: bold;
+                text-align: center;
+            }
+            #images1 
+            {
+                display: inline-block;
+            }
+            #images1 #images11 img 
+            {
+                vertical-align: middle;
+            }
+            #images1 #images22 img 
+            {
+                vertical-align:baseline; 
+            }
+        </style>
+    </head>
+        <body>
+            <h1> j cole </h1>
+            <span id = "images1">  
+            <em id = "images11"> J cole 
+                <img src    = "images/Screenshot 2024-12-06 182517.png"
+                                              alt    = "Jcole"
+                                              title  = "Jcole"
+                                              width  = "200"
+                                              height = "200"/> </em>
+            <hr />
+
+            <em id = "images2"> J cole 
+                <img src    = "images/Screenshot 2024-12-06 182517.png"
+                                             alt     = "Jcole"
+                                             title   = "Jcole"
+                                             width   = "200"
+                                             height  = "200"/><em> 
+                                             </span>
+        </body>
+</html>
