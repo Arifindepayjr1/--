@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title> Hover Active and Focus </title>
+        <style type="text/css">
+            @font-face 
+            {
+                font-family: "Custome";
+                src: url("fonts/PressStart2P-Regular.ttf") format("truetype");
+            }
+            body
+            {
+                background-color:aqua;
+            }
+            input.submit:active
+            {
+                background-color: aliceblue;
+                font-size: 1em;
+                text-transform: lowercase;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 20px;
+                font-family: "Custome";
+                letter-spacing: 0.3em;
+                text-decoration: underline;
+                text-shadow: 1px 1px 0px red;
+                text-align: left;
+                text-indent: 0px;
+            }
+            input.submit:hover
+            {
+              background-color: brown;
+              color:rgb(0, 0, 0);
+              font-style: italic;
+              font-weight: bold;
+              font-size: 20px;
+              font-family: "Custome";
+              letter-spacing: 0.3em;
+              text-transform: uppercase;
+              text-decoration: underline;
+              text-shadow: 1px 1px 0px red;
+              text-align: left;
+              text-indent: 0px;
+            }
+            input.username:focus
+            {
+                background-color: rgb(128, 0, 255);
+                text-align: left;
+                color:rgb(255, 0, 0);
+                text-decoration: underline;
+                text-transform: uppercase;
+                text-shadow: 2px , 2px , 0 , rgb(37, 0, 245);
+                font-size: 2em;
+                font-family: "Custome";
+                font-weight: bold;
+                font-style:italic;
+            }
+            input.username:hover 
+            {
+                background-color: brown;
+                text-align: center;
+                color:whitesmoke;
+                text-decoration: underline;
+                text-transform: uppercase;
+                text-shadow: 2px , 2px , 0 , blueviolet;
+                font-size: 1em;
+                font-family: "Custome";
+            }
+            input.username:active 
+            {
+                text-indent: 20px;
+                color:rgb(255, 0, 0);
+                font-size: 3em;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <form action = "example.php" method = "post"> 
+        <label>
+            <input type = "text"
+                   name = "usersname"
+                   value = "Enter your username"
+                   class = "username"/>
+        </label>
+        <br/>
+        <label>
+            <input  type = "submit"
+                    name = "submit"
+                    value = "Submit" 
+                    class = "submit"/>
+        </label>
+    </body>
+
+</html>
