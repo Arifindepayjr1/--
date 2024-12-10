@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resizable Box Example</title>
+  <style>
+    .box {
+      width: 200px; /* Fixed width */
+      height: 150px; /* Fixed height */
+      min-width: 100px; /* Box can shrink but not smaller than 100px */
+      max-width: 400px; /* Box can grow but not wider than 400px */
+      min-height: 100px; /* Box can shrink but not smaller than 100px */
+      max-height: 300px; /* Box can grow but not taller than 300px */
+      border: 2px solid black;
+      padding: 10px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <h1>Try Resizing the Browser Window</h1>
+  <div class="box">
+    This box has a fixed size but will resize within constraints.
+    Resize the window to see how the box behaves.
+  </div>
+</body>
+</html>
