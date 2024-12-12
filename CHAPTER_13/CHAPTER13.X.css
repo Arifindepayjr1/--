@@ -1,0 +1,80 @@
+body 
+{
+    font-family: monospace;
+    line-height: 1.43em;
+    letter-spacing: 0.1em;
+}
+#page
+{
+    border-width:10px;
+    border-style: double;
+    width: 750px;
+    height: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 450px;
+    max-width: 600px;
+    min-height: 300px;
+    max-height: 700px;
+    padding: 20px;
+}
+#logo
+{
+   margin-left: auto;
+   margin-right: auto;
+   width: 400px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   text-align: center;
+}
+a:link
+{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+a:hover
+{
+    color:orange;
+}
+li 
+{
+    display: inline;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+ul 
+{
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: thick;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: thin;
+}
+#picture 
+{
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+#paragraph
+{
+    text-align: center;
+    margin: 40px auto 10px auto;
+    padding: 10px;
+    width: 400px
+
+}
