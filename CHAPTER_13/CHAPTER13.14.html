@@ -1,0 +1,55 @@
+<!DOCTYPE html public "-//W3C//DTD XHTML 1.0 Strict//EN"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title> Border Images </title>
+        <style type = "text/css">
+            body 
+            {
+                background-color: aquamarine;
+            }
+            .one 
+            {
+                border: 40px solid ;
+                width: 100px;
+                -moz-border-image:url("images/681723-berserk-hd-wallpaper-background.jpg")
+                10 10 10 10 stretch;
+                -webkit-border-image:url("images/681723-berserk-hd-wallpaper-background.jpg")
+                10 10 10 10 stretch;
+                border-image:url("images/681723-berserk-hd-wallpaper-background.jpg")
+                10 10 10 10 stretch;
+            }
+            .two 
+            {
+                margin-top: 10px;
+                border: 40px solid transparent;
+                padding: 20px;
+                -moz-border-image: url("images/https___images.genius.com_ae722fa8fa10d75fe4b25dfeb4b8d8d6.1000x1000x1.jpg")
+                10 10 10 10 round;
+                -webkit-border-image: url("images/https___images.genius.com_ae722fa8fa10d75fe4b25dfeb4b8d8d6.1000x1000x1.jpg")
+                10 10 10 10 round;
+                border-image:url("images/https___images.genius.com_ae722fa8fa10d75fe4b25dfeb4b8d8d6.1000x1000x1.jpg")
+                10 10 10 10 round;
+            }
+            .three 
+            {
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 10px;
+                border: 50px solid;
+                padding: 20px;
+                -moz-broder-image: url("images/desktop-wallpaper-black-background-black-velvet.jpg")
+                20 20 20 20 round;
+                -webkit-border-image: url("images/desktop-wallpaper-black-background-black-velvet.jpg")
+                20 20 20 20 round;
+                border-image:url("images/desktop-wallpaper-black-background-black-velvet.jpg")
+                20 20 20 20 round;
+            }
+
+        </style>
+    </head>
+    <p class = "one"> a </p>
+    <p class = "two"> a </p>
+    <p class = "three"> b </p>
+</html>
