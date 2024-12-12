@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title> Border Shadow </title>
+        <style type = "text/css">
+            body 
+            {
+                background-color: aqua;
+            }
+            .one 
+            {
+                background-color: aquamarine;
+                border-width: 10px;
+                border-style: solid;
+                border-color:bisque;
+                width  :  250px;
+                height :  200px;
+                padding:   20px;
+                margin :   20px;
+                margin-bottom: 20px;
+                margin-right: auto;
+                margin-left: auto;
+                -moz-box-shadow: 10px 10px 0px red;
+                -webkit-box-shadow: 10px 10px 0px red;
+                box-shadow: 10px 10px 0px red;
+            }
+            .two
+            {
+                background-color: rgba(132, 0, 255, 0.5);
+                border-width: 10px;
+                border-style: ridge;
+                border-color:bisque;
+                height: 200px;
+                width:  250px;
+                padding: 20px;
+                margin: 20px;
+                margin-right: auto;
+                margin-left: auto;
+                -moz-box-shadow: 10px -10px 0px red;
+                -webkit-box-shadow: 10px -10px 0px red;
+                box-shadow:10px -10px 0px red;
+            }
+            .three 
+            {
+                background-color:bisque;
+                border-width: 10px;
+                border-style:solid;
+                border-color:yellow;
+                height: 200px;
+                width: 250px;
+                padding: 20px;
+                margin: 20px;
+                margin-right: auto;
+                margin-left: auto; 
+                -moz-box-shadow: -10px 10px 2px red;
+                -webkit-box-shadow: -10px 10px 2px red;
+                box-shadow: -10px 10px 2px red;
+            }
+            .four 
+            {
+                background-color:darkgoldenrod;
+                border-width: 10px;
+                border-style: solid;
+                border-color:blue;
+                height: 200px;
+                width: 250px;
+                padding: 20px;
+                margin: 20px;
+                margin-right: auto;
+                margin-left: auto;
+                -moz-box-shadow: 10px 10px 0px 5px red;
+                -webkit-box-shadow: 10px 10px 0px 5px red;
+                box-shadow: 10px 10px 0px 5px red;
+            }
+            .five 
+            {
+                background-color: blanchedalmond;
+                border-width: 10px;
+                border-style: solid;
+                height: 200px;
+                width: 250px;
+                padding: 20px;
+                margin: 20px;
+                margin-right: auto;
+                margin-left: auto;
+                -moz-box-shadow: inset 10px 10px 5px 5px  red;
+                -webkit-box-shadow: inset 10px 10px 5px 5px  red;
+                box-shadow: inset 10px 10px 5px 5px red;
+            }
+        </style>
+    </head>
+    <body> 
+        <p class = "one">   </p>
+        <br/>
+        <p class = "two">   </p>
+        <br/>
+        <p class = "three"> </p>
+        <br/>
+        <p class = "four">  </p>
+        <br/>
+        <p class = "five">  </p>
+    </body>
+</html>
