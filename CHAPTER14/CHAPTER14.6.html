@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title> Gap Between Cells </title>
+        <style type = "text/css">
+            td 
+            {
+                padding: 10px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: red;
+            }
+            .one 
+            {
+                border-spacing: 30px 70px;
+                empty-cells: show;
+            }
+            .two 
+            {
+                border-collapse: collapse;
+                empty-cells: hide;
+            }
+        </style>
+    </head>
+    <body>
+        <table class = "one">
+            <tr>
+                <td> 1 </td>
+                <td> 2 </td>
+            </tr>
+            <tr> 
+                <td> 3 </td>
+                <td>  </td>
+            </tr>
+        </table>
+        <table class = "two">
+            <tr>
+                <td> 1 </td>
+                <td> 2 </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td>  </td>
+            </tr>
+        </table>
+    </body>
+</html>
