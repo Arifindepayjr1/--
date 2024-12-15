@@ -1,0 +1,22 @@
+input 
+{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    color:bisque;
+    background-color: grey;
+    font-family: monospace;
+    font-size: 15px;
+    border-radius: 10px 5px;
+    border-width: thin;
+    border-style: solid;
+    padding: 5px
+}
+[type="text"]:focus , [type="text"]:hover 
+{
+    width: 500px;
+    text-shadow: 4px 2px 5px red;
+    font-size: 200%;
+    font-family: "Press Start 2P";
+    box-shadow: 4px 2px 5px 5px red;
+}
