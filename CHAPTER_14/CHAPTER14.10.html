@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>  Align Form Control Problem </title> 
+    </head>
+    <body>
+        <form action = "login.php" method = "post">
+            <div>
+                <label for = "text"> Name: </label>
+                <input type = "text"
+                       id   = "text"> 
+            </div>
+            <div>
+                <label for = "email"> Email: </label>
+                <input type = "text"
+                       id   = "email">
+            </div>
+            <div>
+                <span> Gender: </span>
+                <input type = "radio"
+                       name = "gender"
+                       value = "male"
+                       id  = "male"> <label for = "male"> M </label>
+                <input type = "radio"
+                       name = "gender"
+                       value = "Female"
+                       id = "female"> <label for = "female"> F </label>
+            </div>
+            <div>
+                <input type = "submit"
+                       value = "Register"/>
+            </div>
+        </form>
+    </body>
+</html>
