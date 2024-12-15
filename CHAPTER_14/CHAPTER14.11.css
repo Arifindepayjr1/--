@@ -1,0 +1,14 @@
+div 
+{
+    width: 260px;
+    padding: 10px;
+}
+.title 
+{
+    padding: 50px;
+    text-align: center; 
+}
+[type="submit"]
+{
+  float: right;
+}
