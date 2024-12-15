@@ -1,0 +1,46 @@
+fieldset
+{
+    width: 250px;
+    padding: 45px;
+    border-width: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: gray;
+    font-family: monospace;
+}
+legend 
+{
+    border: 2px solid gray;
+    text-transform: uppercase;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: rgb(229, 216, 216);
+    text-align: left;
+}
+[type="text"]
+{
+    margin: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+span 
+{
+    margin-right: 7px;
+}
+[type="submit"]
+{
+    color: whitesmoke;
+    border-radius: 5px;
+    background-color:gray;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+[type="submit"]:hover
+{
+    color: gray;
+    border-radius: 5px;
+    background-color:rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 200px;
+}
