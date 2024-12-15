@@ -1,0 +1,42 @@
+body 
+{
+    font-family: monospace;
+    font-size: 16px;
+}
+h1 
+{
+    font-family: "Press Start 2P";
+}
+
+th
+{
+    padding: 10px;
+    text-transform: uppercase;
+    border-top-width: thin;
+    border-top-style: solid;
+    border-top-color: black;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+    letter-spacing: 0.1em;
+    font-size: 100%;
+    text-align: left;
+    font-style: bold;
+}
+.left
+{
+    text-align: right;
+}
+.user2  , .user4  
+{
+    background-color: antiquewhite;
+}
+tr:hover
+{
+    background-color: rgb(24, 171, 122);
+}
+.user1 td , .user2 td , .user3 td , .user4 td  
+{
+    width: 600px;
+    padding: 10px;
+}
+
