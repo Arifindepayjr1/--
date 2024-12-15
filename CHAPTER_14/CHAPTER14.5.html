@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html> 
+    <head>
+        <title> Empty Cells </title>
+        <style type = "text/css">
+            .one 
+            {
+                empty-cells: show;
+            }
+            td 
+            {
+                padding: 10px;
+                border-style: solid;
+                border-color: red;
+                border-width: 10px;
+            }
+            .two 
+            {
+                empty-cells: hide;
+            }
+        </style>
+    </head>
+    <body>
+        <table class = "one">
+            <tr>
+                <td> 1 </td>
+                <td> 2 </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td>   </td>
+            </tr>
+        </table>
+        <table class = "two" > 
+            <tr> 
+                <td> 1 </td>
+                <td> 2 </td>
+            </tr>
+            <tr> 
+                <td> 3 </td>
+                <td>   </td>
+            </tr>
+        </table>
+    </body>
+</html>
