@@ -1,0 +1,126 @@
+body 
+{
+    font-family: monospace;
+    color: rgb(144, 66, 66);
+    font-size: 20px;
+    font-weight: bold;
+}
+h1 
+{
+    font-weight: bold;
+}
+ul 
+{
+    list-style-type:circle;
+    list-style-position: outside;
+}
+table 
+{
+    width: 900px;
+    border-spacing:0px;
+    cursor:crosshair;
+}
+tr th:first-child
+{
+    width: 300px;
+    border-top-left-radius: 10px;
+}
+tr th:last-child
+{
+    border-top-right-radius: 10px;
+}
+td 
+{
+    padding: 10px; 
+}
+tr th 
+{
+    border-collapse: collapse;
+    border-width: thin;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px;
+}
+tr td
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(154, 144, 144);
+}
+tr td:first-child
+{
+    font-weight: bold;
+    text-shadow: 1px 1px;
+}
+tr.header 
+{
+    background-color: aqua;
+}
+tr 
+{
+    background-color:aquamarine;
+}
+tr.even 
+{
+    background-color: turquoise;
+}
+fieldset 
+{
+    width: 500px;
+    height: 150px;
+}
+div.head 
+{
+    margin-top: 20px;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
+}
+.title 
+{
+    padding: 10px;
+}
+[type="text"] , #center
+{
+    float: right;
+}
+.centerhead 
+{
+    margin-top: 10px;
+}
+.member
+{
+    margin-top: 20px;
+    width: 600px;
+    text-align: right;
+}
+.button 
+{
+    width: 10%;
+    padding: 10px;
+    margin-left: 570px;
+}
+[type="submit"]
+{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(153, 255, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+span.title1
+{
+    margin-left: 10px;
+    float: left;
+}
+[type="submit"]:hover
+{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(153, 255, 0);
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
