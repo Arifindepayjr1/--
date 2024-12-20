@@ -1,0 +1,19 @@
+h1 
+{
+    font-size: 64px;
+    width: 1000px;
+    font-family: monospace;
+}
+blockquote 
+{
+    width: 300px;
+    border: medium double black;
+    padding: 10px;
+    float: right;
+    font-style:italic;
+}
+body 
+{
+    background-color: blanchedalmond;
+}
+
