@@ -1,0 +1,17 @@
+h1 
+{
+    font-family: monospace;
+    font-size: 55px;
+    background-color: beige;
+}
+p 
+{
+    width: 220px;
+    float: left;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+.clear 
+{
+    clear: left;
+}
