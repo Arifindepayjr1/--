@@ -1,0 +1,24 @@
+h1 
+{
+    font-family: monospace;
+    font-size: 72px;
+    color:brown;
+}
+p 
+{
+    width: 150px;
+    float: left;
+    padding: 10px;
+    background-color: azure;
+
+}
+.clear 
+{
+    padding: 10px;
+    clear: left;
+    background-color: antiquewhite;
+}
+div 
+{
+    border: 1px solid red;
+}
