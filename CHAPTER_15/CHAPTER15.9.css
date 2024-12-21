@@ -11,6 +11,10 @@ p
     background-color: antiquewhite;
     float: left;
 }
+.clear 
+{
+    clear: left;
+}
 #containing
 {
     border: 10px solid red;
