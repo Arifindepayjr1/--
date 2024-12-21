@@ -11,14 +11,14 @@ h1 , h2 , h3
     color: brown;
     background-color: antiquewhite;
 }
-.column1 , .column2
+.column1 
 {
     width: 300px;
     float: left;
     margin: 10px;
     padding: 10px;
 }
-.column3 
+.column2 
 {
     width: 250px;
     float: left;
