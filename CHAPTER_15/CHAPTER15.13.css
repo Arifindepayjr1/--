@@ -1,0 +1,53 @@
+body 
+{
+    width: 90%;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+h1 
+{
+    background-color: antiquewhite;
+    font-family: monospace;
+    margin: 1% 1% 1% 1%;
+}
+.navigation 
+{
+    background-color: bisque;
+    width: 94.1%;
+    padding: 2%;
+    margin-left: 1%;
+}
+li 
+{
+    display: inline;
+    margin: 1%;
+}
+li > a 
+{
+    color: black;
+    text-decoration: none;
+}
+.feature 
+{
+    background-color: antiquewhite;
+    margin: 1%;
+    padding: 9%;
+}
+.column1 , .column2 , .column3 
+{
+    float: left;
+    background-color: bisque;
+    margin: 1%;
+    width: 31.3%;
+}
+.footer 
+{
+    background-color: antiquewhite;
+    margin-top: 9%;
+    padding: 1%;
+    width: 96%;
+    margin-left: 1%;
+}
