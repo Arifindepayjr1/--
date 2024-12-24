@@ -1,0 +1,40 @@
+
+body 
+{
+    text-align: center;
+}
+#header 
+{
+    background-color: antiquewhite;
+}
+li 
+{
+    display: inline;
+    padding: 10px;
+}
+li > a 
+{
+    text-decoration: none;
+    color: black;
+}
+#nav 
+{
+    background-color: antiquewhite;
+}
+#feature 
+{
+    background-color: antiquewhite;
+    margin-top: 10px;
+    height: 100px;
+    padding-top: 20px;
+}
+.Article 
+{
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
+.footer 
+{
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
