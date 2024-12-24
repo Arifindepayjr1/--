@@ -1,0 +1,15 @@
+th 
+{
+    background-color:bisque;
+    border: medium solid aquamarine;
+    padding: 10px;
+    color:black;
+}
+td 
+{
+    background-color: antiquewhite;
+    padding: 10px;
+    color:black;
+    font-weight: bold;
+    border: thin solid wheat;
+}
